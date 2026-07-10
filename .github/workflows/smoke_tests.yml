@@ -1,0 +1,14 @@
+name: Smoke Tests
+
+# Thin caller for the reusable smoke-test workflow (owned by your Heart
+# fork). The chain is just your own library: its dependencies (autoconf,
+# autofit) install from PyPI via pip in smoke_install.sh.
+
+on: [push, pull_request]
+
+jobs:
+  smoke:
+    uses: PyAutoLabs/PyAutoHeart/.github/workflows/smoke-tests.yml@main
+    with:
+      chain: "PyAutoProject"
+    secrets: inherit
