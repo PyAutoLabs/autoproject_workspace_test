@@ -20,3 +20,5 @@ Part of the PyAutoScientist template family — copy it ("Use this
 template") alongside
 [PyAutoProject](https://github.com/PyAutoLabs/PyAutoProject) and
 [autoproject_workspace](https://github.com/PyAutoLabs/autoproject_workspace).
+
+<sub><i><a href="https://open.spotify.com/track/4pok08MvDsJzOM6kMpWHmc">we gon' make it through</a></i></sub>
